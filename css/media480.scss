@@ -1,0 +1,175 @@
+
+@media (max-width:480px) {
+    .header {
+        background: url(../img/background320.jpg);
+    }
+
+    .wrapper {
+        width: 280px;
+    }
+    .header-menu {
+        padding-bottom: 125px;
+        align-items: center;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+    .menu li:not(:first-child) {
+        display: none;
+    }
+/* ------------slider-------------- */
+    .slider {
+        padding-top: 0;
+        padding-bottom: 165px;
+        text-align: center;
+    }
+
+    .slider p {
+        display: none;
+    }
+    
+    .str-one {
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .str-two {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .iphon {
+        display: none;
+    }
+
+    .navigation {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 68px
+    }
+
+    .slide .slid-left {
+        position: absolute;
+        left: -13px;
+        top: 50%;
+        transform: translate(-50%);
+        width: 22px;
+        height: 34px;
+    }
+    
+    .slide .slid-right {
+        position: absolute;
+        right: -35px;
+        top: 50%;
+        transform: translate(-50%);
+        width: 22px;
+        height: 34px;
+    }
+
+    /* --------purple-gradient-------- */
+
+    .purple-gradient {
+        height: 596px;
+    }
+    
+    .purple {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+
+    .COMPANY {
+       padding-left: 11px;
+    }
+    
+    .about {
+        display: flex;
+        width: 265px;
+        height: 155px;
+        padding-right: 5px;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+
+    .READ-MORE {
+        padding-left: 175px;
+        padding-right: 5px;
+    }
+
+    .about p {
+        // padding-left: 8px; 
+        height: 68px;
+        width: 200px;
+        overflow: hidden;
+    }
+
+    /* ---------start here---------- */
+
+    .start-left {
+        width: 275px;
+    }
+
+    .start-right {
+        width: 275px;
+    }
+
+    .bubble {
+        width: 245px;
+        height: 220px;
+        top: 70px;
+    }
+
+    .bubble:before {
+        top: 255px;
+    }
+
+    .bubble-front {
+        width: 245px;
+    }
+
+    .start-left p {
+        height: 145px;
+        width: 210px;
+    }
+
+    .nunc {
+        overflow: hidden;
+        width: 150px;
+        height: 30px;
+    } 
+
+    .recent {
+        width: 260px;
+        overflow: hidden;
+    }
+
+    .READ-HERE {
+        padding-left: 140px;
+    }
+    
+     // ******start-center*********
+
+    .logoss img {
+        padding: 0 20px;
+    }
+
+    .start-down {
+        display: none;
+    }
+
+    .footer-out {
+        height: 120px;
+        justify-content: center;
+    }
+
+    .footer-in {
+        display: none;
+    }
+
+
+}
